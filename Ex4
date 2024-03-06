@@ -1,0 +1,17 @@
+# Simulação da solução dos interruptores e lâmpadas
+def discover_light_switches():
+    # Supõe-se que os interruptores são rotulados como 1, 2, 3 e as lâmpadas são A, B, C
+    # Esta função apenas simula a lógica da solução proposta, não é um código executável real
+    
+    # Passo 1: Ligar o interruptor 1 por alguns minutos e depois desligar
+    # Passo 2: Ligar o interruptor 2 e ir verificar as lâmpadas
+    lamp_A = "quente e apagada"  # Controlada pelo interruptor 1
+    lamp_B = "acesa"             # Controlada pelo interruptor 2
+    lamp_C = "fria e apagada"    # Controlada pelo interruptor 3
+    
+    print(f"Interruptor 1 controla a lâmpada que está {lamp_A}.")
+    print(f"Interruptor 2 controla a lâmpada que está {lamp_B}.")
+    print(f"Interruptor 3 controla a lâmpada que está {lamp_C}.")
+
+# Chamada da função que simula a solução
+discover_light_switches()
